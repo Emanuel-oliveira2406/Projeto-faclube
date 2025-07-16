@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pb-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fã-Clube Beto Carrero World</title>
+    <link rel="stylesheet" type="text/css" href="css/bcw.css">
+    <link rel="icon" type="image/png" href="imgs/castelinho.png">
+</head>
+
+<body>
+    <header>
+        <img src="imgs/castelinho.png" alt="Logo da página" title="Logo da página">
+        <h1>Fã-Clube Beto Carrero World - Faça Parte</h1>
+    </header>
+
+    <nav>
+        <a href="index.html"><div class="opcao">Página Inicial</div></a>
+        <a href="conteudo.html"><div class="opcao">Conteúdo</div></a>
+        <a href="facaparte.html"><div class="opcao">Faça Parte</div></a>
+    </nav>
+
+        <div class="decoracao-esquerda">
+        <img src="imgs/bcw3.png" alt="Castelo das Nações" title="Castelo das Nações" class="bolinha-img">
+        <img src="imgs/bcw28.png" alt="Sonho do Cowboy" title="Sonho do Cowboy" class="bolinha-img">
+        <img src="imgs/bcw26.png" alt="Lamparina Cowboyland" title="Lamparina Cowboyland" class="bolinha-img">
+        <img src="imgs/bcw8.png" alt="Nerf Mania" title="Nerf Mania" class="bolinha-img">
+    </div>
+    <div class="decoracao-direita">
+        <img src="imgs/bcw17.png" alt="Sonho do Cowboy - Maldock" title="Sonho do Cowboy - Maldock" class="bolinha-img">
+        <img src="imgs/bcw30.png" alt="Fire Whip" title="Fire Whip" class="bolinha-img">
+        <img src="imgs/bcw31.png" alt="Personagem Raskapuska" title="Personagem Raskapuska" class="bolinha-img">
+        <img src="imgs/bcw15.png" alt="Girafa Zoológico - Gigrande" title="Girafa Zoológico - Gigrande" class="bolinha-img">
+    </div>
+
+    <section>
+        <h2>Deseja fazer parte da nossa comunidade?<br>Entre em contato conosco!</h2>
+        <p>Se você se identificou também como um grande fã de aventura, de diversão, personágens de filmes e desenhos,
+            você náo pode ficar de fora dessa, insira seus dados e faça parte do nosso grupo de WhatsApp!
+        </p>
+        <form name="frmfacaparte" method="post" action="#">
+            <fieldset class="facaparte">
+                <legend>Dados Pessoais:</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" name="txtnome" id="nome">
+                <label for="telefone">Telefone WhatsApp:</label>
+                <input type="text" name="txtfone" id="telefone">
+                <label for="email">E-mail:</label>
+                <input type="email" name="txtemail" id="email">
+            </fieldset>
+            <fieldset class="facaparte">
+                <legend>Motivo do Contato</legend>
+                <label for="motivo">Motivo:</label>
+                <select name="selmotivo" id="motivo">
+                    <option value="">Escolha</option>
+                    <option value="GPW">Grupo de WhatsApp</option>
+                    <option value="SU">Sujestão</option>
+                    <option value="RE">Reclamação</option>
+                </select>
+                <label for="comentario">Comentário:</label>
+                <textarea name="txtcomentario" id="comentario"></textarea>
+                <button type="reset">Limpar</button><button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+    <footer>Copyright &copy; FÃ-CLUBE 2025</footer>
+</body>
+</html>

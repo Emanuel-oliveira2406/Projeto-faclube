@@ -1,0 +1,143 @@
+@charset "UTF-8";
+body{
+    margin: 0 auto;
+    font-family: "Times", sans-serif;
+    font-size: 17px;
+    background-image: linear-gradient(to bottom, #fed485, #fbefb2, #fdf8dd);
+}
+header{
+    height: 170px;
+    background-color: #D9A94E;
+    font-family: 'Century Gothic', sans-serif;
+}
+header img{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+header h1{
+    float: left;
+    margin: 50ox 0 0 30px;
+    font-size: 50px;
+    color: white;
+}
+.bolinha-img{
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px 0;
+    border: 2px solid yellow;
+}
+.decoracao-esquerda, .decoracao-direita{
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.decoracao-esquerda{
+    left: 15px;
+}
+.decoracao-direita{
+    right: 15px;
+}
+section{
+    clear: both;
+    min-height: 500px;
+    width:60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0px;
+    flex: 1;
+}
+footer{
+    background-color: #D9A94E;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+nav{
+    clear: both;
+    width: 80%;
+    margin: 0px auto;
+    height: 55px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+nav .opcao{
+    float: left;
+    width: 31.3%;
+    height: auto;
+    background-color: #D9A94E;
+    padding: 10px auto;
+    margin: 0 1%;
+    font-size: 26px;
+}
+nav .opcao:hover{
+    background-color: #d2bd51;
+}
+.facaparte{
+    width: 300px;
+    margin: 0px auto;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.facaparte input, .facaparte textarea, .facaparte select{
+    margin: 5px auto;
+    width: 100%;
+    padding: 5px 0;
+}
+.facaparte textarea{
+    height: 100px;
+    resize: none;
+}
+.facaparte button{
+    width: 30%;
+    margin: 0 10%;
+    background-color: gainsboro;
+    font-weight: bold;
+    font-size: 16px;
+}
+.imgmeiopag{
+    width: 800px;
+    height: 470px;
+    border: 2px solid yellow;
+}
+.tabelaRadicais, .tabelaFamilia, .tabelaInfantil{
+    margin: 10px auto;
+    text-align: left;
+}
+.tabelasSuperiores{
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     flex-wrap: wrap;
+     margin-bottom: 30px;
+}
+.tituloTabela{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    border: transparent;
+}
+tr, td, th{
+    border: 1px solid #d6ee8c;
+    padding: 5px;
+}
+tr, td{
+    font-size: 14px;
+}
+tr:nth-child(even){
+    background-color: #b9dd58;
+}
+tr:nth-child(odd){
+    background-color: #6bab39;
+}
+.imgsShows{
+    width: 450px;
+}
