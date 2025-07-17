@@ -19,7 +19,7 @@ header img{
 header h1{
     float: left;
     margin: 50ox 0 0 30px;
-    font-size: 50px;
+    font-size: 45px;
     color: white;
 }
 .bolinha-img{
@@ -163,7 +163,7 @@ tr:nth-child(odd){
     header h1 {
         float: none;
         margin: 0;
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .decoracao-esquerda, .decoracao-direita {
